@@ -12,7 +12,7 @@ lerobot-train \
   --policy.device="$DEVICE" \
   --dataset.repo_id=lerobot/libero \
   --env.type=libero --env.task="$SUITE" \
-  --eval_freq="$EVAL_FREQ" --eval.batch_size=1 --eval.n_episodes=1 \
+  --env_eval_freq="$EVAL_FREQ" --eval.batch_size=1 --eval.n_episodes=1 \
   --save_freq="$SAVE_FREQ" --steps="$STEPS" --batch_size="$BS" --seed=1000 \
   --output_dir=outputs/train/expert_plus_vlm --job_name=expert_plus_vlm \
   --wandb.enable="$WANDB" $EXTRA_TRAIN_ARGS
