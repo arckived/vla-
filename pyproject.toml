@@ -1,0 +1,8 @@
+[project]
+name = "vla-study"
+version = "0.1.0"
+description = "Fine-tuning, quantizing and stress-testing SmolVLA on LIBERO"
+requires-python = ">=3.12"
+
+[tool.setuptools]
+packages = ["vla_study"]
